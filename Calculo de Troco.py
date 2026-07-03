@@ -1,5 +1,5 @@
 # ================================
-# Loja do clube Quebrada FC Fans
+# Quebrada FC Fans 🏪
 # ================================
 
 valor_compra = float(input("Digite o valor da compra (R$): "))
@@ -19,13 +19,13 @@ else:
     troco_centavos = int(round(troco * 100))
 
     dinheiro = [
-        ("Nota de R$100", 10000),
-        ("Nota de R$50", 5000),
-        ("Nota de R$20", 2000),
-        ("Nota de R$10", 1000),
-        ("Nota de R$5", 500),
-        ("Nota de R$2", 200),
-        ("Moeda de R$1", 100),
+        ("Nota de R$100,00", 10000),
+        ("Nota de R$50,00", 5000),
+        ("Nota de R$20,00", 2000),
+        ("Nota de R$10,00", 1000),
+        ("Nota de R$5,00", 500),
+        ("Nota de R$2,00", 200),
+        ("Moeda de R$1,00", 100),
         ("Moeda de R$0,50", 50),
         ("Moeda de R$0,25", 25),
         ("Moeda de R$0,10", 10),
@@ -56,7 +56,8 @@ else:
     print(f"Total de itens devolvidos 💵 🟡 R$: {total_notas + total_moedas}")
     print("==============================")
 
-    
+
     print("\n=======================================")
     print("Obrigado por ajudar o Quebrada FC")
+    print("🎁")
     print("\n=======================================")
